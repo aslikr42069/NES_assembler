@@ -1,0 +1,32 @@
+(define keywordData (list 
+ (list
+  "ROMFORMAT"
+  "romformat"
+  1
+ )
+ (list
+  "ROMNAME"
+  "romname"
+  1
+ )
+ (list
+  "IMPORT"
+  "import"
+  1
+ )
+ (list
+  "ASSIGN"
+  "assign"
+  2
+ )
+ (list
+  "MACRO"
+  "macro"
+  2
+ )
+ (list
+  "ENDMACRO"
+  "endmacro"
+  0
+ )
+))
