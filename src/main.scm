@@ -1,6 +1,8 @@
 (import (chicken process-context)
         (chicken string))
 
+(include "src/tokenize.scm")
+
 (define (read-file-to-list file currentList)
   (if (eof-object? (peek-char file))
       '()
